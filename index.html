@@ -6,8 +6,43 @@
     <title>HOME page</title>
     <link href="dist/output.css" rel="stylesheet" />
     <link href="src/input.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <p class="text-center">Cy</p>
+    <!--NAVIGATION-->
+    <nav
+      class="h-20 w-full text-center items-center justify-center fixed top-0 z-50 bg-neutral-700 bg-opacity-50 text-lg font-roboto"
+    >
+      <div
+        class="flex space-x-8 h-full w-full justify-center items-center decoration-none gap-20 text-white"
+      >
+        <a href="index.html" class="hover:underline hover:text-red-600">Home</a>
+        <a href="about.html" class="hover:underline hover:text-red-600"
+          >About Us</a
+        >
+        <a href="marketplace.html" class="hover:underline hover:text-red-600"
+          >Marketplace</a
+        >
+        <a href="contact.html" class="hover:underline hover:text-red-600"
+          >Contact</a
+        >
+      </div>
+    </nav>
+    <!--FIRST PAGE-->
+    <div
+      class="h-screen w-full bg-[url('/assets/home_page/steering_wheel.png')] bg-cover z-0 flex items-center justify-center"
+    >
+      <div class="w-full h-1/4 bg-neutral-700 bg-opacity-80 text-end">
+        <h1 class="text-red-800 text-8xl font-bold pr-8">
+          Drive Your <br />
+          Dreams Today
+        </h1>
+      </div>
+    </div>
   </body>
 </html>
