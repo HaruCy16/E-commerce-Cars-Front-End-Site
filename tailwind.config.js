@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: "jit",
   content: ["./src/**/*.{html,js}", "./*.html"],
   theme: {
     extend: {
       fontFamily: {
-        roboto: "Roboto",
-        normal: "Poppins",
+        primary: "Roboto",
+        secondary: "Poppins",
       },
     },
   },
