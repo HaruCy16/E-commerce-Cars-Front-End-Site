@@ -22,25 +22,25 @@
         class="flex space-x-8 h-full w-full justify-center items-center decoration-none gap-20 text-white"
       >
         <a
-          href="index.html"
+          href="../index.html"
           class="hover:underline hover:text-red-600 text-2xl"
           target="_blank"
           >Home</a
         >
         <a
-          href="public/about.html"
+          href="about.html"
           class="hover:underline hover:text-red-600 text-2xl"
           target="_blank"
           >About Us</a
         >
         <a
-          href="public/marketplace.html"
+          href="marketplace.html"
           class="hover:underline hover:text-red-600 text-2xl"
           target="_blank"
           >Marketplace</a
         >
         <a
-          href="public/contact.html"
+          href="contact.html"
           class="hover:underline hover:text-red-600 text-2xl"
           target="_blank"
           >Contact</a
@@ -49,19 +49,42 @@
     </nav>
     <!--CONTACT BODY-->
     <div class="h-screen w-full bg-gradient-to-b from-gray-900 to-gray-400">
-      <div class="h-[80%] w-full align-center justify-center flex">
+      <div class="h-[80%] w-full align-center justify-center flex p-[3rem]">
         <div class="w-[50%] text-right">
-          <h1 class="text-white text-6xl font-bold">Contact with Us</h1>
+          <h1 class="text-white text-[10rem] text-left font-bold">
+            Contact with Us
+          </h1>
         </div>
-        <div class="w-[50%]">
+        <div class="w-[50%] flex justify-center items-center">
           <form>
-            <label for="name">Name:</label><br />
-            <input type="text" id="name" name="name" required /><br />
-            <label for="email">Email:</label><br />
-            <input type="email" id="email" name="email" required /><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your.email@gmail.com"
+              required
+            /><br />
             <label for="message">Message:</label><br />
-            <textarea id="message" name="message" required></textarea><br />
-            <button type="submit">Submit</button><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            ></textarea
+            ><br />
+            <input
+              type="submit"
+              value="Submit"
+              class="bg-gray-600 text-white p-2 rounded-md"
+            />
           </form>
         </div>
       </div>
