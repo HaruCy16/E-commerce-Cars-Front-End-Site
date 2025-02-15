@@ -49,18 +49,23 @@
     </nav>
     <!--CONTACT BODY-->
     <div class="h-screen w-full bg-gradient-to-b from-gray-900 to-gray-400">
-      <div class="h-[80%] w-full align-center justify-center flex p-[3rem]">
+      <div
+        class="h-[80%] w-full align-center justify-center flex pt-[3rem] pr-[3rem] pl-[3rem] pb-[0rem]"
+      >
         <div class="w-[50%] text-right">
-          <h1 class="text-white text-[10rem] text-left font-bold">
+          <h1 class="text-white text-[10rem] text-left font-bold mt-[1rem]">
             Contact with Us
           </h1>
         </div>
-        <div class="w-[50%] flex justify-center items-center">
-          <form>
+        <div
+          class="w-[50%] max-w-2xl mx-auto flex justify-center items-center p-6"
+        >
+          <form class="text-left">
             <input
               type="text"
               id="name"
               name="name"
+              class="p-2.5 text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Name"
               required
             />
@@ -68,6 +73,7 @@
               type="email"
               id="email"
               name="email"
+              class="p-2.5 text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="your.email@gmail.com"
               required
             /><br />
@@ -77,17 +83,19 @@
               name="message"
               rows="4"
               class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Type your message here..."
               required
             ></textarea
             ><br />
             <input
               type="submit"
               value="Submit"
-              class="bg-gray-600 text-white p-2 rounded-md"
+              class="bg-gray-600 text-white p-2 rounded-md hover:bg-gray-700 hover:cursor-pointer"
             />
           </form>
         </div>
       </div>
+      <!--FOOTER-->
       <div class="h-[20%] w-full bg-white">
         <div class="w-full text-center"></div>
       </div>
